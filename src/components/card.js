@@ -2,7 +2,7 @@ import React, {PureComponent} from 'react';
 import {StyleSheet, Image, TouchableOpacity, Text} from 'react-native';
 import PropTypes from 'prop-types';
 
-const placeholderImage = require('../../assets/images/no_img_available.jpg');
+const placeholderImage = require('../assets/images/no_img_available.jpg');
 
 const propTypes = {
   item: PropTypes.object,
@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     alignItems: 'center',
     height: 200,
+    marginBottom: 8,
   },
   image: {
     height: 200,

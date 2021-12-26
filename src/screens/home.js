@@ -16,7 +16,6 @@ import {
 import {SliderBox} from 'react-native-image-slider-box';
 import List from '../components/list';
 import Error from '../components/error';
-
 const dimensions = Dimensions.get('screen');
 
 const Home = ({navigation}) => {

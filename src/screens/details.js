@@ -15,7 +15,7 @@ import dateFormat from 'dateformat';
 import PlayButton from '../components/play_button';
 import Video from '../components/video';
 
-const placeholderImage = require('../../assets/images/no_img_available.jpg');
+const placeholderImage = require('../assets/images/no_img_available.jpg');
 
 const height = Dimensions.get('screen').height;
 
